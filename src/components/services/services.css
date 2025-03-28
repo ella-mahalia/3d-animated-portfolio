@@ -1,0 +1,135 @@
+.services {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+/* TITLE SECTION */
+.title-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 24px;
+}
+
+/* TECHNICAL TEXT */
+.technical {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: bold;
+    color: rgb(252, 139, 220);
+    padding: 1rem;
+}
+
+/* TECHNICAL DESCRIPTION */
+.technical-description {
+    max-width: 800px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+
+/* SKILL GRID */
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 100%;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    /* Add some horizontal padding for better spacing */
+}
+
+/* SKILL CARD */
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    width: clamp(100px, 10vw, 150px);
+    /* Responsive width */
+    height: clamp(120px, 12vh, 180px);
+    /* Responsive height */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* SKILL CARD HOVER EFFECT */
+.skill-card:hover {
+    transform: scale(1.1);
+}
+
+/* SKILL ICON */
+.skill-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* SKILL LABEL */
+.skill-card h3 {
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* For larger screens (max-width 1536px) */
+@media (max-width: 1536px) {
+
+    .service,
+    .counterList {
+        width: 70%;
+    }
+}
+
+/* For medium screens (max-width 1280px) */
+@media (max-width: 1280px) {
+    .sTitle {
+        font-size: 128px;
+    }
+
+    .service {
+        width: 100%;
+        /* Ensure services take full width */
+    }
+}
+
+/* For small screens (max-width 1024px) */
+@media (max-width: 1024px) {
+    .sTitle {
+        font-size: 48px;
+    }
+
+    .service,
+    .counterList {
+        width: 100%;
+        /* Ensure both take full width */
+    }
+}
+
+/* For very small screens (max-width 768px) */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        /* Stack the services section vertically */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sSection {
+        width: 100%;
+        /* Full width for each section */
+    }
+
+    .sSection.right {
+        display: none;
+        /* Hide right section on smaller screens */
+    }
+}
