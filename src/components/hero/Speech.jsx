@@ -14,7 +14,7 @@ const Speech = () => {
                         1000,
                         "Designing solutions like it's my superpower… cape not included.",
                         1000,
-                        "If you asked me Marvel or DC. The obvious choice would be DC",
+                        "If you asked me Marvel or DC. The obvious choice would be Marvel!",
                         1000,
                     ]}
                     wrapper="span"

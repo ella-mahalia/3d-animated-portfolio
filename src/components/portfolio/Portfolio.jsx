@@ -19,24 +19,24 @@ const items = [
     },
     {
         id: 3,
-        img: "golocker.jpg",
-        title: "Locker NYC: Package Flow & Utilization Dashboard",
-        desc: "The dashboard provides insights into operational efficiency, highlighting package flow trends, pickup/return times, and locker utilization across locations.",
-        link: "/",
+        img: "Heartattack Classifier.png",
+        title: "Heart Attack Classifier",
+        desc: "This model predicts the likelihood of a heart attack using machine learning algorithms, including K-Nearest Neighbors (KNN), Gaussian Naïve Bayes (GNB), and Support Vector Machine (SVM). The model takes inputs such as age, gender, glucose levels, impulse measurements, KCM, high and low blood pressure readings, and troponin levels to assess risk. Deployed as a web-based tool, it allows users to input their data and receive a quick, accurate prediction, showcasing my ability to build practical healthcare applications with machine learning.",
+        link: "https://ellamahalia.pythonanywhere.com/heart_attack",
     },
     {
         id: 4,
-        img: "golocker.jpg",
-        title: "Locker NYC: Package Flow & Utilization Dashboard",
-        desc: "The dashboard provides insights into operational efficiency, highlighting package flow trends, pickup/return times, and locker utilization across locations.",
-        link: "/",
+        img: "house.png",
+        title: "House Price Prediction Model",
+        desc: "This development showcases a machine learning algorithm to predict property prices based on key features such as the number of bedrooms, bathrooms, and stories, total area in square feet, furnishing status, parking availability, and amenities like air conditioning, basement, hot-water heating, and guestroom presence. Additionally, the model accounts for locational factors, including proximity to main roads and preferred areas. Deployed as an intuitive web application, it empowers users to obtain accurate price estimates by seamlessly inputting relevant property details, showcasing my expertise in integrating data science techniques into real-world applications for the real estate sector.",
+        link: "https://ellamahalia.pythonanywhere.com/house_price_prediction",
     },
     {
         id: 5,
-        img: "golocker.jpg",
-        title: "Locker NYC: Package Flow & Utilization Dashboard",
-        desc: "The dashboard provides insights into operational efficiency, highlighting package flow trends, pickup/return times, and locker utilization across locations.",
-        link: "/",
+        img: "gameboy.jpg",
+        title: "Gameboy Tetris Clone",
+        desc: "Let's have fun! This is a gameboy tetris clone that I created using React and the HTML canvas. It was a fun project to work on and I'm excited to share it with you.",
+        link: "http://127.0.0.1:5501/"
     },
 ];
 
